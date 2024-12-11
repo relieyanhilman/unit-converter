@@ -1,0 +1,28 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>LengthConverterServlet</servlet-name>
+        <servlet-class>LengthConverterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LengthConverterServlet</servlet-name>
+        <url-pattern>/convertLength</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WeightConverterServlet</servlet-name>
+        <servlet-class>WeightConverterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WeightConverterServlet</servlet-name>
+        <url-pattern>/convertWeight</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TemperatureConverterServlet</servlet-name>
+        <servlet-class>TemperatureConverterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TemperatureConverterServlet</servlet-name>
+        <url-pattern>/convertTemperature</url-pattern>
+    </servlet-mapping>
+</web-app>
